@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+}
+body{
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 80vh;
+    width: 100vw;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: auto;
+}
+
+nav img {
+    height: auto;
+    width: 110px;
+    margin: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box div {
+    position: relative;
+    z-index: 11;
+}
+
+.content {
+    /* height: calc(100%-49.73px); */
+    height: calc(100% - 49.73px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 0 23px;
+}
+
+.content> :first-child {
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 41px;
+  text-align: center;
+}
+.content> :nth-child(2){
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align:center;
+}
+.content> :nth-child(3){
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(105, 101, 101);
+    position: relative;
+    z-index: 11;
+}
+
+.btn{
+    padding: 4px 10px;
+    font-weight: 400;
+    border: none ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.lang{
+    background-color: rgba(34, 33, 33, 0.4);
+    border: 1px solid rgba(255, 253, 253, 0.5);
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    height: 46px;
+    width: 140px;
+    font-weight: 800;
+    font-size: small;
+    
+}
+.red-btnsm{
+    background-color: red;
+    color: white;
+}
+.main input{
+    height: 32px;
+    width: 194px;
+    padding: 4px 10px;
+    background-color: rgba(23,23,23,0.2);
+    border: 1px solid rgba(255, 253, 253, 0.5);
+    border-radius: 4px;
+    color: white;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    background-color: black;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 366px;
+    height: 168px;
+    
+}
